@@ -1,8 +1,11 @@
 .Dashboard{
+  width: 100%;
+  background-repeat: repeat;
+  margin-top: -72px;
   .astronaut{
     width:330px;
     position: absolute;
-    color: #fff;
+    transition: 0.75s;
     top:-50px;
     left: 125px;
   }
