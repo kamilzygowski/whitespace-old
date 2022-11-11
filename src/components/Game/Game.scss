@@ -1,0 +1,27 @@
+.Game{
+    margin: 25px;
+    .gameImage{
+        width: 217px;
+        height: 289px;
+        background-color: green;
+        border-radius: 4px;
+        &:hover{
+            transform: scale(1.07);
+            transition: 0.2s ease-in;
+        }
+    }
+    h1 {
+        font-size: 26px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .platforms{
+        .platformIcon{
+            width: 26px;
+            margin-inline: 6.5px;
+            opacity: 0.75;
+        }
+    }
+
+}

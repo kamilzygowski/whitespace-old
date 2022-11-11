@@ -1,5 +1,12 @@
 @import "../../index.scss";
 .Newsbar{
-    height: 1555px;
-    //background-color: $pallete-2;
+    margin-top: 355px;
+    width:96%;
+    height: 85px;
+   background-color: $pallete-2;
+   border-radius: 8px;
+   display: flex;
+   align-self: center;
+   justify-self: center;
+   margin-bottom: 20px;
 }

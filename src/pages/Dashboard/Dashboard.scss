@@ -3,6 +3,10 @@
   width: 100%;
   background-repeat: repeat;
   margin-top: -$navbar-height;
+  min-height: 1555px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   .astronaut{
     width:330px;
     position: absolute;

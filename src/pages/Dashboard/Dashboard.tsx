@@ -7,6 +7,8 @@ import logo from '../../assets/logo.svg';
 import astronaut from '../../assets/astronaut.svg';
 import stars from '../../assets/stars.webp';
 import Navbar from '../Navbar/Navbar';
+import AllGames from '../../components/AllGames/AllGames';
+import Footer from '../../components/Footer/Footer';
 
 const Dashboard = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -47,7 +49,8 @@ const Dashboard = () => {
       <img src={astronaut} alt="" ref={astronautImage} className="astronaut" />
       <img src={logo} alt="" className="logo" />
       <NewsBar />
-      Dashboard
+      <AllGames />
+      <Footer />
     </div>
   )
 }
