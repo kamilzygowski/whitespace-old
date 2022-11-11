@@ -1,11 +1,12 @@
+@import "../../index.scss";
 .Dashboard{
   width: 100%;
   background-repeat: repeat;
-  margin-top: -72px;
+  margin-top: -$navbar-height;
   .astronaut{
     width:330px;
     position: absolute;
-    transition: 0.75s;
+    transition: 0.65s;
     top:-50px;
     left: 125px;
   }

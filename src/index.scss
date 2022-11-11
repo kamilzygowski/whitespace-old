@@ -9,6 +9,9 @@ $font-primary: "David Libre", serif;
 $font-secondary: "Viaoda Libre", cursive;
 $font-header-size: 20px;
 $font-paragraph-size: 16px;
+$font-white-space-signature: 'Macondo Swash Caps', cursive;
+
+$navbar-height: 108px;
 
 body {
   margin: 0;
@@ -18,7 +21,7 @@ body {
   background-repeat: no-repeat;
   background-size: 80%;
   background-position:center top;
-  margin-top: 72px;
+  margin-top: $navbar-height;
 }
 
 code {

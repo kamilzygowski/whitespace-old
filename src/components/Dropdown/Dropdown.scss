@@ -9,7 +9,6 @@
         align-items: center;
         //border: 1px solid rgb(70, 70, 70);
         //background-color: rgb(20, 20, 20);
-        color: #fff;
         padding-block: 8px;
         padding-inline: 10px;
         // Disable selecting text on every browser
@@ -19,23 +18,33 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+        &:hover + ul{
+          
+                display:flex;
+            
+        }
         .awesomeIcon {
             margin-inline: 5px;
-            font-size: 18px;
+            font-size: 22px;
         }
     }
     ul {
-        display: flex;
+        display: none;
         flex-direction: column;
         position: absolute;
         text-align: center;
         padding: 0;
         padding-left: 0;
         margin-left: -50px;
-        margin-top: 19px;
+        margin-top: 0px;
         border-radius: 10px;
         list-style: none;
         width: 150px;
+        &:hover {
+          
+            display:flex;
+        
+    }
         li {
             padding-block: 10px;
             background-color: rgba(0, 0, 0, 0.8);
