@@ -1,6 +1,24 @@
 .Footer {
+    color: rgb(199, 197, 197);
     padding-top: 24px;
     height: 438px;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-block: 35px;
+        li{
+            margin-inline: 15px;
+        }
+    }
+    .logo{
+        width: 200px;
+    }
 }
